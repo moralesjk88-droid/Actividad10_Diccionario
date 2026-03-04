@@ -15,9 +15,7 @@
             }
             Console.WriteLine("Nombre del estudiante en especifico:_" + estudiantes[202620]);
 
-
-
-        }
+          }
 
     }
 }
