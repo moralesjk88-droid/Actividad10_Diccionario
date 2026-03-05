@@ -4,29 +4,17 @@
     {
         static void Main(string[] args)
         {
-            /*  Dictionary <int ,string  > estudiantes = new Dictionary<int,string>();
-              estudiantes.Add(202618, "Maria");
-              estudiantes.Add(202620, "Juan");
-              estudiantes.Add(202619, "Carlos");
+             Dictionary <string ,double> estudiantes = new Dictionary<string,double>();
+            estudiantes.Add("Mario Rodas", 69.5);
+            estudiantes.Add("Eduardo Berquefer", 40);
+            estudiantes.Add("Alejandra Morales", 98.3);
 
-              foreach (var item in estudiantes)
-              {
-                  Console.WriteLine(item.Key + "-"+item.Value);   
-              }
-              Console.WriteLine("Nombre del estudiante en especifico:_" + estudiantes[202620]);*/
-
-            //ejercicios2
-            Dictionary<int, string> productos = new Dictionary<int, string>();
-
-            productos.Add(200521, "leche");
-            productos.Add(201015, "Papel");
-            productos.Add(200419, "Envace de Agua");
-
-            foreach (var item in productos)
+            if (estudiantes.ContainsKey("Eduardo Berquefer"))
             {
-                Console.WriteLine("Codigo:_ "+item.Key+" Nombre del producto:_ "+item.Value);
-
+                Console.WriteLine("Nota del estudiante: " + estudiantes["EduardoBerquefer"]);
             }
+
+
 
 
 
